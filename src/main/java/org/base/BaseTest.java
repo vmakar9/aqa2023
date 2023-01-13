@@ -22,7 +22,7 @@ public class BaseTest {
 
     @BeforeMethod(alwaysRun = true, description = "Opening base url")
     public void setUp(){
-        Selenide.open("https://www.google.com");
+        Selenide.open("https://www.saucedemo.com/");
 
     }
 
@@ -30,7 +30,7 @@ public class BaseTest {
     public void cleanWebDriver(){
         Selenide.clearBrowserCookies();
         Selenide.refresh();
-        Selenide.open("about:blank");
+
     }
 
     @AfterSuite(alwaysRun = true, description = "Closing WEB Browser")
