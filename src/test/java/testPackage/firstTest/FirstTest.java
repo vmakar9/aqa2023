@@ -1,4 +1,4 @@
-package testPackage;
+package testPackage.firstTest;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.ElementsCollection;
@@ -18,9 +18,9 @@ public class FirstTest extends BaseTest {
 
     @Test
     public void test(){
-      $(By.xpath("//input[@placeholder='Username']")).append("standard_user");
-      $(By.xpath("//input[@placeholder='Password']")).append("secret_sauce");
-      $(By.xpath("//input[@type='submit']")).click();
+//      $(By.xpath("//input[@placeholder='Username']")).append("standard_user");
+//      $(By.xpath("//input[@placeholder='Password']")).append("secret_sauce");
+//      $(By.xpath("//input[@type='submit']")).click();
 //      $(By.xpath("xpath")).doubleClick();
 
 //        $(By.xpath("//input[@placeholder='Username']")).clear();
